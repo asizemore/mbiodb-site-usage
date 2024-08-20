@@ -4,6 +4,9 @@ Analysis of MicrobiomeDB.org usage
 
 This repo can be used to generate figures that show particular usage statistics for the MicrobiomeDB.org website. 
 
+![Usage of curated studies over time](./images/HMP_analyses.svg)
+
+
 
 ## Getting started
 ### Specify environment variables
