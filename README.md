@@ -13,7 +13,9 @@ This repo can be used to generate figures that show particular usage statistics 
 ### 0. Install python >=3.11
 Use ```brew install python``` to get the latest version, or 
 
-```brew install python@3.11```
+```
+brew install python@3.11
+```
 
 for the version I used.
 
@@ -38,17 +40,23 @@ Next, ssh into the server on which your database resides
 
 3a. Create a new python environment for the project. In the terminal, run
 
-```python3 -m venv env```
+```
+python3 -m venv env
+```
 
 which will create a new directory called `env`. 
 
 3b. Activate the environment with
 
-```source env/bin/activate ```
+```
+source env/bin/activate
+```
 
 3c. Install required packages using
 
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
 
 ### 4. Run the notebook
@@ -57,5 +65,8 @@ As long as the variables are specified correctly in `.env`, running the jupyter 
 
 ### 5. Deactivate the environment
 When finished, deactivate your python environment by running 
-```deactivate``` in the terminal.
+```
+deactivate
+```
+in the terminal.
 
