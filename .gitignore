@@ -163,3 +163,5 @@ cython_debug/
 
 # Outputs
 *.pdf
+*.json
+*.csv
